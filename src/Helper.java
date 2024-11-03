@@ -1,8 +1,14 @@
 class A{
     int x ;
-
+    int b ;
     public int getX() {
         return x;
+    }
+    public int getB() {
+        return b;
+    }
+    public void setB(int b) {
+        this.b = b;
     }
 
     public void setX(int x) {
@@ -15,7 +21,7 @@ public class Helper{
         System.out.println("Helper");
         A a = new A();
         a.setX(10);
-        System.out.println(a.getX());
+        a.setB(20);
 
     }
 }
