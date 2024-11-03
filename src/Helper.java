@@ -14,6 +14,10 @@ class A{
     public void setX(int x) {
         this.x = x;
     }
+
+    public void add(){
+        return x + b;
+    }
 }
 
 public class Helper{
